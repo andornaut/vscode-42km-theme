@@ -4,7 +4,6 @@ on:
   push:
     branches: [main]
     paths:
-      - scripts/json-color-swatches.mjs
       - themes/**
 
   workflow_dispatch:
@@ -18,14 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate swatches
-        run: node scripts/json-color-swatches.mjs swatches themes/*.json
-
-      - name: Commit swatches
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add swatches/
-          git diff --cached --quiet && echo "No changes" && exit 0
-          git commit -m "[skip ci] Generate color swatches"
-          git push
+      - uses: andornaut/color-swatches-action@main
+        with:
+          files: 'themes/*.json'
+          out-dir: 'swatches'
