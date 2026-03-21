@@ -1,0 +1,22 @@
+{
+	"name": "vscode-42km-theme",
+	"displayName": "42km Theme",
+	"description": "A dark VS Code theme inspired by the Marathon game aesthetic",
+	"version": "0.0.1",
+	"publisher": "andornaut",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "42km Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/42km-dark-color-theme.json"
+			}
+		]
+	}
+}
