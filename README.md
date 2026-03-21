@@ -10,19 +10,19 @@ Download and install from the [Extension Marketplace](https://marketplace.visual
 
 | Color | Hex | Usage |
 | ----- | --- | ----- |
-| Lime Green | `#c0fe04` | Primary accent — strings, keywords, cursor, links, tags |
-| Dark Green | `#8db803` | Function names |
-| Red | `#f24723` | Errors, numbers, regexp, constants, invalid |
-| Orange | `#ff9500` | Warnings |
-| Light Orange | `#ff6b3d` | Diff changed |
-| Light Blue | `#4fc3f7` | Info |
-| White | `#ffffff` | Class names, headings, menu foreground |
-| Light Gray | `#cccccc` | Default foreground, variables, arguments |
-| Mid Gray | `#717171` | Storage, built-in constants, inherited classes |
-| Dark Gray | `#555555` | Comments, inactive elements |
-| Charcoal | `#1c1c1c` | Surface backgrounds, panels, inputs |
-| Near Black | `#0a0a0a` | Editor background |
-| Black | `#000000` | Base backgrounds — sidebar, title bar, terminal |
+| ![#c0fe04](swatches/c0fe04.svg) Lime Green | `#c0fe04` | Primary accent — strings, keywords, cursor, links, tags |
+| ![#8db803](swatches/8db803.svg) Dark Green | `#8db803` | Function names |
+| ![#f24723](swatches/f24723.svg) Red | `#f24723` | Errors, numbers, regexp, constants, invalid |
+| ![#ff9500](swatches/ff9500.svg) Orange | `#ff9500` | Warnings |
+| ![#ff6b3d](swatches/ff6b3d.svg) Light Orange | `#ff6b3d` | Diff changed |
+| ![#4fc3f7](swatches/4fc3f7.svg) Light Blue | `#4fc3f7` | Info |
+| ![#ffffff](swatches/ffffff.svg) White | `#ffffff` | Class names, headings, menu foreground |
+| ![#cccccc](swatches/cccccc.svg) Light Gray | `#cccccc` | Default foreground, variables, arguments |
+| ![#717171](swatches/717171.svg) Mid Gray | `#717171` | Storage, built-in constants, inherited classes |
+| ![#555555](swatches/555555.svg) Dark Gray | `#555555` | Comments, inactive elements |
+| ![#1c1c1c](swatches/1c1c1c.svg) Charcoal | `#1c1c1c` | Surface backgrounds, panels, inputs |
+| ![#0a0a0a](swatches/0a0a0a.svg) Near Black | `#0a0a0a` | Editor background |
+| ![#000000](swatches/000000.svg) Black | `#000000` | Base backgrounds — sidebar, title bar, terminal |
 
 ## Developing
 
