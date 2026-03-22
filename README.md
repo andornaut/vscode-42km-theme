@@ -6,7 +6,7 @@ Download and install from the [Extension Marketplace](https://marketplace.visual
 
 ![screenshot](./screenshots/42km.png)
 
-This color theme uses [Solarized Dark `tokenColors`](https://github.com/microsoft/vscode/blob/main/extensions/theme-solarized-dark/themes/solarized-dark-color-theme.json).
+This color theme uses [Solarized Dark](https://ethanschoonover.com/solarized/) [`tokenColors`](https://github.com/microsoft/vscode/blob/main/extensions/theme-solarized-dark/themes/solarized-dark-color-theme.json).
 
 ## Primary Colors
 
