@@ -29,16 +29,17 @@ This color theme uses [Solarized Dark `tokenColors`](https://github.com/microsof
 
 | Color | Hex | Usage |
 | ----- | --- | ----- |
-| ![#859900](swatches/859900.svg) Green | `#859900` | Keywords, variable start, library class/type |
+| ![#859900](swatches/859900.svg) Green | `#859900` | Keywords, variable start, library class/type, diff inserted |
 | ![#2AA198](swatches/2aa198.svg) Cyan | `#2AA198` | Strings, markup inline |
-| ![#268BD2](swatches/268bd2.svg) Blue | `#268BD2` | Variables, functions, tags, headings |
+| ![#268BD2](swatches/268bd2.svg) Blue | `#268BD2` | Variables, functions, tags, headings, diff header |
 | ![#6C71C4](swatches/6c71c4.svg) Violet | `#6C71C4` | Inherited class |
 | ![#D33682](swatches/d33682.svg) Magenta | `#D33682` | Numbers, markup styling |
-| ![#CB4B16](swatches/cb4b16.svg) Orange | `#CB4B16` | Class names, constants, exceptions |
+| ![#CB4B16](swatches/cb4b16.svg) Orange | `#CB4B16` | Class names, constants, exceptions, diff changed |
 | ![#B58900](swatches/b58900.svg) Yellow | `#B58900` | Built-in constants, markup lists |
-| ![#D30102](swatches/d30102.svg) Red | `#D30102` | Errors, regexp, invalid |
-| ![#93A1A1](swatches/93a1a1.svg) Light Gray | `#93A1A1` | Default foreground, storage, arguments |
-| ![#657B83](swatches/657b83.svg) Gray | `#657B83` | Comments, tag delimiters |
+| ![#DC322F](swatches/dc322f.svg) Red | `#DC322F` | Errors, regexp, invalid, diff deleted |
+| ![#93A1A1](swatches/93a1a1.svg) Light Gray | `#93A1A1` | Storage, tag attributes |
+| ![#839496](swatches/839496.svg) Base0 | `#839496` | Default foreground |
+| ![#586E75](swatches/586e75.svg) Dark Gray | `#586E75` | Comments, tag delimiters |
 
 ## Developing
 

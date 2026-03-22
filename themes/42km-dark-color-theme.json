@@ -99,16 +99,18 @@
 	"tokenColors": [
 		{
 			"settings": {
-				"foreground": "#93A1A1"
+				"foreground": "#839496"
 			}
 		},
 		{
 			"scope": [
 				"meta.embedded",
-				"source.groovy.embedded"
+				"source.groovy.embedded",
+				"string meta.image.inline.markdown",
+				"variable.legacy.builtin.python"
 			],
 			"settings": {
-				"foreground": "#93A1A1"
+				"foreground": "#839496"
 			}
 		},
 		{
@@ -116,7 +118,7 @@
 			"scope": "comment",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#657B83"
+				"foreground": "#586E75"
 			}
 		},
 		{
@@ -130,7 +132,7 @@
 			"name": "Regexp",
 			"scope": "string.regexp",
 			"settings": {
-				"foreground": "#D30102"
+				"foreground": "#DC322F"
 			}
 		},
 		{
@@ -199,7 +201,7 @@
 				"punctuation.section.embedded.end"
 			],
 			"settings": {
-				"foreground": "#D30102"
+				"foreground": "#DC322F"
 			}
 		},
 		{
@@ -234,7 +236,10 @@
 		},
 		{
 			"name": "Inherited class",
-			"scope": "entity.other.inherited-class",
+			"scope": [
+				"entity.other.inherited-class",
+				"punctuation.separator.namespace.ruby"
+			],
 			"settings": {
 				"foreground": "#6C71C4"
 			}
@@ -242,9 +247,7 @@
 		{
 			"name": "Function argument",
 			"scope": "variable.parameter",
-			"settings": {
-				"foreground": "#93A1A1"
-			}
+			"settings": {}
 		},
 		{
 			"name": "Tag name",
@@ -257,7 +260,7 @@
 			"name": "Tag start/end",
 			"scope": "punctuation.definition.tag",
 			"settings": {
-				"foreground": "#657B83"
+				"foreground": "#586E75"
 			}
 		},
 		{
@@ -278,15 +281,16 @@
 			"name": "Continuation",
 			"scope": "punctuation.separator.continuation",
 			"settings": {
-				"foreground": "#D30102"
+				"foreground": "#DC322F"
 			}
 		},
 		{
 			"name": "Library constant",
-			"scope": "support.constant",
-			"settings": {
-				"foreground": "#B58900"
-			}
+			"scope": [
+				"support.constant",
+				"support.variable"
+			],
+			"settings": {}
 		},
 		{
 			"name": "Library class/type",
@@ -308,15 +312,13 @@
 		{
 			"name": "Library variable",
 			"scope": "support.other.variable",
-			"settings": {
-				"foreground": "#268BD2"
-			}
+			"settings": {}
 		},
 		{
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
-				"foreground": "#D30102"
+				"foreground": "#DC322F"
 			}
 		},
 		{
@@ -327,7 +329,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#E0EDDD"
+				"foreground": "#268BD2"
 			}
 		},
 		{
@@ -335,7 +337,7 @@
 			"scope": "markup.deleted",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#dc322f"
+				"foreground": "#DC322F"
 			}
 		},
 		{
@@ -343,14 +345,14 @@
 			"scope": "markup.changed",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#cb4b16"
+				"foreground": "#CB4B16"
 			}
 		},
 		{
 			"name": "diff: inserted",
 			"scope": "markup.inserted",
 			"settings": {
-				"foreground": "#2AA198"
+				"foreground": "#859900"
 			}
 		},
 		{
@@ -389,6 +391,12 @@
 			"scope": "markup.italic",
 			"settings": {
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "markup.strikethrough",
+			"settings": {
+				"fontStyle": "strikethrough"
 			}
 		},
 		{
