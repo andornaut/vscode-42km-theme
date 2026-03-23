@@ -4,7 +4,7 @@ A [Marathon](https://marathonthegame.com/) inspired dark color theme for [Visual
 
 Download and install from the [Extension Marketplace](https://marketplace.visualstudio.com/items?itemName=Andornaut.42km), or launch VS Code *Quick Open* (Ctrl+P), paste the following command, and press enter: `ext install Andornaut.42km`
 
-![screenshot](./screenshots/42km.png)
+![screenshot](./screenshot.png)
 
 This color theme uses [Solarized Dark](https://ethanschoonover.com/solarized/) [`tokenColors`](https://github.com/microsoft/vscode/blob/main/extensions/theme-solarized-dark/themes/solarized-dark-color-theme.json).
 
