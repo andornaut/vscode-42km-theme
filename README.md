@@ -62,9 +62,10 @@ This color theme uses [Solarized Dark](https://ethanschoonover.com/solarized/) [
 * [Get a Personal Access Token](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token)
 
 ```bash
-npm install @vscode/vsce
-npx vsce login Andornaut
+npm install
+npm run swatches
 
+npx vsce login Andornaut
 npx vsce package
 npx vsce publish
 npx vsce publish patch

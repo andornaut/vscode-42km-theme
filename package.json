@@ -24,7 +24,7 @@
 		]
 	},
 	"scripts": {
-		"swatches": "color-swatches --format png swatches themes/*.json"
+		"swatches": "rm -rf swatches && mkdir swatches && color-swatches --format png swatches themes/*.json"
 	},
 	"devDependencies": {
 		"@vscode/vsce": "^3.7.1",
