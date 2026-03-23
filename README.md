@@ -15,15 +15,23 @@ This color theme uses [Solarized Dark](https://ethanschoonover.com/solarized/) [
 | Color | Hex | Usage |
 | ----- | --- | ----- |
 | ![#c0fe04](swatches/c0fe04.svg) Lime Green | `#c0fe04` | Primary accent — cursor, links, active line number, focus border |
-| ![#4fc3f7](swatches/4fc3f7.svg) Light Blue | `#4fc3f7` | Info |
-| ![#f24723](swatches/f24723.svg) Red | `#f24723` | Errors, breakpoints, debugging |
-| ![#ff9500](swatches/ff9500.svg) Orange | `#ff9500` | Warnings |
-| ![#ffffff](swatches/ffffff.svg) White | `#ffffff` | Menu foreground, title bar |
-| ![#555555](swatches/555555.svg) Dark Gray | `#555555` | Inactive elements |
-| ![#333333](swatches/333333.svg) Gray | `#333333` | Line numbers, scrollbar |
-| ![#1c1c1c](swatches/1c1c1c.svg) Charcoal | `#1c1c1c` | Surface backgrounds, panels, inputs |
-| ![#0a0a0a](swatches/0a0a0a.svg) Near Black | `#0a0a0a` | Editor background |
-| ![#000000](swatches/000000.svg) Black | `#000000` | Base backgrounds — sidebar, title bar, terminal |
+| ![#7c48e2](swatches/7c48e2.svg) Purple | `#7c48e2` | Active highlights — tabs, activity bar active |
+| ![#ffff00](swatches/ffff00.svg) Yellow | `#ffff00` | Active foreground, git modified |
+| ![#01e17d](swatches/01e17d.svg) Green | `#01e17d` | Find matches, git added |
+| ![#7289da](swatches/7289da.svg) Periwinkle | `#7289da` | Title bar |
+| ![#41a0eb](swatches/41a0eb.svg) Blue | `#41a0eb` | Info |
+| ![#305090](swatches/305090.svg) Dark Blue | `#305090` | Selection background |
+| ![#ff5c00](swatches/ff5c00.svg) Orange | `#ff5c00` | Warnings, breakpoints, debugging |
+| ![#c4071c](swatches/c4071c.svg) Red | `#c4071c` | Errors, git deleted |
+| ![#f1f1f1](swatches/f1f1f1.svg) Near White | `#f1f1f1` | Foreground text |
+| ![#c1c7c7](swatches/c1c7c7.svg) Silver | `#c1c7c7` | Breadcrumb background |
+| ![#93ada0](swatches/93ada0.svg) Sage | `#93ada0` | Activity bar, scrollbar, inactive tabs |
+| ![#728083](swatches/728083.svg) Slate | `#728083` | Borders, ignored files |
+| ![#585a60](swatches/585a60.svg) Dark Gray | `#585a60` | Inactive elements, gutter, tab headers |
+| ![#414247](swatches/414247.svg) Charcoal Gray | `#414247` | Hover backgrounds, panel |
+| ![#353b3d](swatches/353b3d.svg) Dark Teal | `#353b3d` | Editor background, sidebar |
+| ![#26292e](swatches/26292e.svg) Near Black | `#26292e` | Inputs, lists, menus, line highlight |
+| ![#1b1a1d](swatches/1b1a1d.svg) Black | `#1b1a1d` | Drop backgrounds, cursor background |
 
 ### Syntax (Solarized Dark)
 
