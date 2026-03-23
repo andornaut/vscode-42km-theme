@@ -1,4 +1,4 @@
-# 42km theme for Visual Studio Code
+# 42KM theme for Visual Studio Code
 
 A [Marathon](https://marathonthegame.com/) inspired dark color theme for [Visual Studio Code](https://code.visualstudio.com).
 
@@ -54,7 +54,7 @@ This color theme uses [Solarized Dark](https://ethanschoonover.com/solarized/) [
 ### Testing
 
 1. Press F5 to launch an Extension Development Host window.
-1. Select: File > Preferences > Color Theme > 42km Dark
+1. Select: File > Preferences > Color Theme > 42KM Dark
 
 ### Publishing
 

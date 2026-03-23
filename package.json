@@ -1,8 +1,8 @@
 {
     "name": "vscode-42km-theme",
-    "displayName": "42km Dark color theme",
+    "displayName": "42KM Dark color theme",
     "description": "A Marathon-inspired dark color theme",
-    "homepage": "https://github.com/andornaut/vscode-42km-theme",
+    "homepage": "https://github.com/andornaut/vscode-42KM-theme",
     "icon": "icon.png",
     "license": "MIT",
     "publisher": "andornaut",
@@ -13,10 +13,10 @@
     "contributes": {
         "themes": [
             {
-                "id": "42km Dark",
-                "label": "42km Dark",
+                "id": "42KM Dark",
+                "label": "42KM Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/42km-dark-color-theme.json"
+                "path": "./themes/42KM-dark-color-theme.json"
             }
         ]
     },
@@ -28,7 +28,7 @@
         "theme": "dark"
     },
     "keywords": [
-        "42km",
+        "42KM",
         "dark",
         "green",
         "lime",
@@ -37,11 +37,11 @@
         "solarized"
     ],
     "bugs": {
-        "url": "https://github.com/andornaut/vscode-42km-theme/issues"
+        "url": "https://github.com/andornaut/vscode-42KM-theme/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/andornaut/vscode-42km-theme"
+        "url": "https://github.com/andornaut/vscode-42KM-theme"
     },
     "scripts": {
         "swatches": "rm -rf swatches && mkdir swatches && color-swatches --format png swatches themes/*.json"
