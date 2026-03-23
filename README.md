@@ -14,40 +14,40 @@ This color theme uses [Solarized Dark](https://ethanschoonover.com/solarized/) [
 
 | Color | Hex | Usage |
 | ----- | --- | ----- |
-| ![#c0fe04](swatches/c0fe04.svg) Lime Green | `#c0fe04` | Primary accent — cursor, links, active line number, focus border |
-| ![#7c48e2](swatches/7c48e2.svg) Purple | `#7c48e2` | Active highlights — tabs, activity bar active |
-| ![#ffff00](swatches/ffff00.svg) Yellow | `#ffff00` | Active foreground, git modified |
-| ![#01e17d](swatches/01e17d.svg) Green | `#01e17d` | Find matches, git added |
-| ![#7289da](swatches/7289da.svg) Periwinkle | `#7289da` | Title bar |
-| ![#41a0eb](swatches/41a0eb.svg) Blue | `#41a0eb` | Info |
-| ![#305090](swatches/305090.svg) Dark Blue | `#305090` | Selection background |
-| ![#ff5c00](swatches/ff5c00.svg) Orange | `#ff5c00` | Warnings, breakpoints, debugging |
-| ![#c4071c](swatches/c4071c.svg) Red | `#c4071c` | Errors, git deleted |
-| ![#f1f1f1](swatches/f1f1f1.svg) Near White | `#f1f1f1` | Foreground text |
-| ![#c1c7c7](swatches/c1c7c7.svg) Silver | `#c1c7c7` | Breadcrumb background |
-| ![#93ada0](swatches/93ada0.svg) Sage | `#93ada0` | Activity bar, scrollbar, inactive tabs |
-| ![#728083](swatches/728083.svg) Slate | `#728083` | Borders, ignored files |
-| ![#585a60](swatches/585a60.svg) Dark Gray | `#585a60` | Inactive elements, gutter, tab headers |
-| ![#414247](swatches/414247.svg) Charcoal Gray | `#414247` | Hover backgrounds, panel |
-| ![#353b3d](swatches/353b3d.svg) Dark Teal | `#353b3d` | Editor background, sidebar |
-| ![#26292e](swatches/26292e.svg) Near Black | `#26292e` | Inputs, lists, menus, line highlight |
-| ![#1b1a1d](swatches/1b1a1d.svg) Black | `#1b1a1d` | Drop backgrounds, cursor background |
+| ![#c0fe04](swatches/c0fe04.png) Lime Green | `#c0fe04` | Primary accent — cursor, links, active line number, focus border |
+| ![#7c48e2](swatches/7c48e2.png) Purple | `#7c48e2` | Active highlights — tabs, activity bar active |
+| ![#ffff00](swatches/ffff00.png) Yellow | `#ffff00` | Active foreground, git modified |
+| ![#01e17d](swatches/01e17d.png) Green | `#01e17d` | Find matches, git added |
+| ![#7289da](swatches/7289da.png) Periwinkle | `#7289da` | Title bar |
+| ![#41a0eb](swatches/41a0eb.png) Blue | `#41a0eb` | Info |
+| ![#305090](swatches/305090.png) Dark Blue | `#305090` | Selection background |
+| ![#ff5c00](swatches/ff5c00.png) Orange | `#ff5c00` | Warnings, breakpoints, debugging |
+| ![#c4071c](swatches/c4071c.png) Red | `#c4071c` | Errors, git deleted |
+| ![#f1f1f1](swatches/f1f1f1.png) Near White | `#f1f1f1` | Foreground text |
+| ![#c1c7c7](swatches/c1c7c7.png) Silver | `#c1c7c7` | Breadcrumb background |
+| ![#93ada0](swatches/93ada0.png) Sage | `#93ada0` | Activity bar, scrollbar, inactive tabs |
+| ![#728083](swatches/728083.png) Slate | `#728083` | Borders, ignored files |
+| ![#585a60](swatches/585a60.png) Dark Gray | `#585a60` | Inactive elements, gutter, tab headers |
+| ![#414247](swatches/414247.png) Charcoal Gray | `#414247` | Hover backgrounds, panel |
+| ![#353b3d](swatches/353b3d.png) Dark Teal | `#353b3d` | Editor background, sidebar |
+| ![#26292e](swatches/26292e.png) Near Black | `#26292e` | Inputs, lists, menus, line highlight |
+| ![#1b1a1d](swatches/1b1a1d.png) Black | `#1b1a1d` | Drop backgrounds, cursor background |
 
 ### Syntax (Solarized Dark)
 
 | Color | Hex | Usage |
 | ----- | --- | ----- |
-| ![#859900](swatches/859900.svg) Green | `#859900` | Keywords, variable start, library class/type, diff inserted |
-| ![#2AA198](swatches/2aa198.svg) Cyan | `#2AA198` | Strings, markup inline |
-| ![#268BD2](swatches/268bd2.svg) Blue | `#268BD2` | Variables, functions, tags, headings, diff header |
-| ![#6C71C4](swatches/6c71c4.svg) Violet | `#6C71C4` | Inherited class |
-| ![#D33682](swatches/d33682.svg) Magenta | `#D33682` | Numbers, markup styling |
-| ![#CB4B16](swatches/cb4b16.svg) Orange | `#CB4B16` | Class names, constants, exceptions, diff changed |
-| ![#B58900](swatches/b58900.svg) Yellow | `#B58900` | Built-in constants, markup lists |
-| ![#DC322F](swatches/dc322f.svg) Red | `#DC322F` | Errors, regexp, invalid, diff deleted |
-| ![#93A1A1](swatches/93a1a1.svg) Light Gray | `#93A1A1` | Storage, tag attributes |
-| ![#839496](swatches/839496.svg) Base0 | `#839496` | Default foreground |
-| ![#586E75](swatches/586e75.svg) Dark Gray | `#586E75` | Comments, tag delimiters |
+| ![#859900](swatches/859900.png) Green | `#859900` | Keywords, variable start, library class/type, diff inserted |
+| ![#2AA198](swatches/2aa198.png) Cyan | `#2AA198` | Strings, markup inline |
+| ![#268BD2](swatches/268bd2.png) Blue | `#268BD2` | Variables, functions, tags, headings, diff header |
+| ![#6C71C4](swatches/6c71c4.png) Violet | `#6C71C4` | Inherited class |
+| ![#D33682](swatches/d33682.png) Magenta | `#D33682` | Numbers, markup styling |
+| ![#CB4B16](swatches/cb4b16.png) Orange | `#CB4B16` | Class names, constants, exceptions, diff changed |
+| ![#B58900](swatches/b58900.png) Yellow | `#B58900` | Built-in constants, markup lists |
+| ![#DC322F](swatches/dc322f.png) Red | `#DC322F` | Errors, regexp, invalid, diff deleted |
+| ![#93A1A1](swatches/93a1a1.png) Light Gray | `#93A1A1` | Storage, tag attributes |
+| ![#839496](swatches/839496.png) Base0 | `#839496` | Default foreground |
+| ![#586E75](swatches/586e75.png) Dark Gray | `#586E75` | Comments, tag delimiters |
 
 ## Developing
 

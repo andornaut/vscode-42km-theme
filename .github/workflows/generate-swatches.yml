@@ -21,3 +21,4 @@ jobs:
         with:
           files: 'themes/*.json'
           out-dir: 'swatches'
+          format: 'png'
