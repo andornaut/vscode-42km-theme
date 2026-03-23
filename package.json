@@ -1,33 +1,53 @@
 {
-	"name": "vscode-42km-theme",
-	"displayName": "42km Theme",
-	"description": "A dark VS Code theme inspired by the Marathon game aesthetic",
-	"version": "0.0.1",
-	"publisher": "andornaut",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/andornaut/vscode-42km-theme"
-	},
-	"engines": {
-		"vscode": "^1.60.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "42km Dark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/42km-dark-color-theme.json"
-			}
-		]
-	},
-	"scripts": {
-		"swatches": "rm -rf swatches && mkdir swatches && color-swatches --format png swatches themes/*.json"
-	},
-	"devDependencies": {
-		"@vscode/vsce": "^3.7.1",
-		"color-swatches": "github:andornaut/color-swatches-action"
-	}
+    "name": "vscode-42km-theme",
+    "displayName": "42km Dark color theme",
+    "description": "A Marathon-inspired dark color theme",
+    "homepage": "https://github.com/andornaut/vscode-42km-theme",
+    "icon": "icon.png",
+    "license": "MIT",
+    "publisher": "andornaut",
+    "version": "0.0.1",
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "id": "42km Dark",
+                "label": "42km Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/42km-dark-color-theme.json"
+            }
+        ]
+    },
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "galleryBanner": {
+        "color": "#1b1a1d",
+        "theme": "dark"
+    },
+    "keywords": [
+        "42km",
+        "dark",
+        "green",
+        "lime",
+        "marathon",
+        "solarized dark",
+        "solarized"
+    ],
+    "bugs": {
+        "url": "https://github.com/andornaut/vscode-42km-theme/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/andornaut/vscode-42km-theme"
+    },
+    "scripts": {
+        "swatches": "rm -rf swatches && mkdir swatches && color-swatches --format png swatches themes/*.json"
+    },
+    "devDependencies": {
+        "@vscode/vsce": "^3.7.1",
+        "color-swatches": "github:andornaut/color-swatches-action"
+    }
 }
