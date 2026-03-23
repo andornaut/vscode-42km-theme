@@ -1,0 +1,10 @@
+.claude/**
+.github/**
+AGENTS.md
+node_modules/
+.vscode/**
+.vscode-test/**
+screenshots/
+.gitignore
+.nvmrc
+package-lock.json
