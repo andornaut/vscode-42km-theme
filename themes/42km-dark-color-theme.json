@@ -21,7 +21,7 @@
 		"editor.findMatchBackground": "#01e17d",
 		"editor.findMatchBorder": "#c0fe04",
 		"editor.findMatchForeground": "#353b3df0",
-		"editor.findMatchHighlightBackground": "#01e17df0",
+		"editor.findMatchHighlightBackground": "#01e17d90",
 		"editor.findMatchHighlightForeground": "#353b3df0",
 		"editor.lineHighlightBackground": "#26292e",
 		"editor.rangeHighlightBackground": "#26292e80",
@@ -30,7 +30,7 @@
 		"editorCursor.background": "#1b1a1d",
 		"editorCursor.foreground": "#c0fe04",
 		"editorError.foreground": "#c4071c",
-		"editorGroup.border": "#26292e",
+		"editorGroup.border": "#728083",
 		"editorGroup.dropBackground": "#1b1a1d",
 		"editorGroupHeader.tabsBackground": "#585a60",
 		"editorGutter.background": "#585a60",
@@ -83,6 +83,7 @@
 		"settings.modifiedItemIndicator": "#c0fe04",
 		"sideBar.background": "#353b3d",
 		"sideBar.border": "#728083",
+		"sideBarSectionHeader.border": "#728083",
 		"sideBar.dropBackground": "#1b1a1d",
 		"sideBarSectionHeader.background": "#26292e",
 		"sideBarSectionHeader.foreground": "#93ada0",
@@ -105,7 +106,7 @@
 		"titleBar.activeForeground": "#26292e",
 		"titleBar.inactiveBackground": "#7289da",
 		"toolbar.activeBackground": "#26292e",
-		"toolbar.hoverBackground": "#26292e"
+		"toolbar.hoverBackground": "#7c48e2"
 	},
 	"tokenColors": [
 		{

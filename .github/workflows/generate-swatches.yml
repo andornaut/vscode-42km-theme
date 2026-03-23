@@ -19,6 +19,6 @@ jobs:
 
       - uses: andornaut/color-swatches-action@main
         with:
-          files: 'themes/*.json'
-          out-dir: 'swatches'
-          format: 'png'
+          files: "themes/*.json"
+          format: "png"
+          out-dir: "swatches"
