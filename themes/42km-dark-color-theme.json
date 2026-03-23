@@ -40,6 +40,8 @@
 		"editorInlayHint.foreground": "#585a60",
 		"editorLineNumber.activeForeground": "#c0fe04",
 		"editorLineNumber.foreground": "#26292e",
+		"editorStickyScrollGutter.background": "#ffff00",
+		"editorStickyScroll.border": "#728083",
 		"editorWarning.foreground": "#ff5c00",
 		"errorForeground": "#c4071c",
 		"focusBorder": "#c0fe04",
@@ -102,7 +104,6 @@
 		"titleBar.activeBackground": "#7289da",
 		"titleBar.activeForeground": "#26292e",
 		"titleBar.inactiveBackground": "#7289da",
-		"titleBar.inactiveForeground": "#f1f1f1",
 		"toolbar.activeBackground": "#26292e",
 		"toolbar.hoverBackground": "#26292e"
 	},
