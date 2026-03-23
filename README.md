@@ -59,7 +59,10 @@ This color theme uses [Solarized Dark](https://ethanschoonover.com/solarized/) [
 ### Publishing
 
 * [Publishing extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
-* [Get a Personal Access Token](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token)
+* [Get a Personal Access Token](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token) — set **Organization** to **All accessible organizations**
+* [Manage publishers and extensions](https://marketplace.visualstudio.com/manage/publishers/Andornaut)
+
+For a brand new extension, create it via the [publisher management page](https://marketplace.visualstudio.com/manage/publishers/Andornaut) by uploading the `.vsix` file. Subsequent versions can be published via the CLI.
 
 ```bash
 npm install
@@ -67,7 +70,8 @@ npm run swatches
 
 npx vsce login Andornaut
 npx vsce package
-npx vsce publish
+# First publish: upload the .vsix via the marketplace web UI
+# Subsequent publishes:
 npx vsce publish patch
 npx vsce publish minor
 npx vsce publish major
