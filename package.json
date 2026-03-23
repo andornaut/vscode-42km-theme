@@ -1,6 +1,6 @@
 {
     "name": "vscode-42km-theme",
-    "displayName": "42KM Dark color theme",
+    "displayName": "42KM color theme",
     "description": "A Marathon-inspired dark color theme",
     "homepage": "https://github.com/andornaut/vscode-42KM-theme",
     "icon": "icon.png",
@@ -13,8 +13,8 @@
     "contributes": {
         "themes": [
             {
-                "id": "42KM Dark",
-                "label": "42KM Dark",
+                "id": "42KM",
+                "label": "42KM",
                 "uiTheme": "vs-dark",
                 "path": "./themes/42KM-dark-color-theme.json"
             }

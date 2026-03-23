@@ -54,7 +54,7 @@ This color theme uses [Solarized Dark](https://ethanschoonover.com/solarized/) [
 ### Testing
 
 1. Press F5 to launch an Extension Development Host window.
-1. Select: File > Preferences > Color Theme > 42KM Dark
+1. Select: File > Preferences > Color Theme > 42KM
 
 ### Publishing
 
