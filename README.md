@@ -15,25 +15,26 @@ This color theme uses [Solarized Dark](https://ethanschoonover.com/solarized/) [
 | Color | Hex | Usage |
 | ----- | --- | ----- |
 | ![#c0fe04](swatches/c0fe04.png) Lime Green | `#c0fe04` | Primary accent — cursor, links, active line number, focus border |
-| ![#7c48e2](swatches/7c48e2.png) Purple | `#7c48e2` | Active highlights — tabs, activity bar active |
+| ![#7c48e2](swatches/7c48e2.png) Purple | `#7c48e2` | Active highlights — tabs, activity bar active, breadcrumb background |
 | ![#ffff00](swatches/ffff00.png) Yellow | `#ffff00` | Active foreground, git modified |
 | ![#01e17d](swatches/01e17d.png) Green | `#01e17d` | Find matches, git added |
-| ![#ff69b4](swatches/ff69b4.png) Hot Pink | `#ff69b4` | Bracket match, match highlight borders, debugging status bar |
+| ![#ff69b4](swatches/ff69b4.png) Hot Pink | `#ff69b4` | Bracket match, match highlight borders, peek view border, debugging status bar |
 | ![#7289da](swatches/7289da.png) Periwinkle | `#7289da` | Title bar |
 | ![#41a0eb](swatches/41a0eb.png) Blue | `#41a0eb` | Info |
 | ![#305090](swatches/305090.png) Dark Blue | `#305090` | Selection background |
 | ![#ff5c00](swatches/ff5c00.png) Orange | `#ff5c00` | Warnings, breakpoints |
 | ![#c4071c](swatches/c4071c.png) Red | `#c4071c` | Errors, git deleted |
 | ![#f1f1f1](swatches/f1f1f1.png) Near White | `#f1f1f1` | Foreground text |
-| ![#c1c7c7](swatches/c1c7c7.png) Silver | `#c1c7c7` | Breadcrumb background, inactive tab foreground |
+| ![#c1c7c7](swatches/c1c7c7.png) Silver | `#c1c7c7` | Breadcrumb foreground, status bar, inactive tab foreground |
 | ![#919797](swatches/919797.png) Gray | `#919797` | Ignored files |
-| ![#93ada0](swatches/93ada0.png) Sage | `#93ada0` | Activity bar, scrollbar, peek view border |
+| ![#93ada0](swatches/93ada0.png) Sage | `#93ada0` | Activity bar, scrollbar |
 | ![#728083](swatches/728083.png) Slate | `#728083` | Borders |
 | ![#585a60](swatches/585a60.png) Dark Gray | `#585a60` | Inactive elements, gutter, tab headers, ruler, inactive tabs |
 | ![#414247](swatches/414247.png) Charcoal Gray | `#414247` | Hover backgrounds, panel |
 | ![#353b3d](swatches/353b3d.png) Dark Teal | `#353b3d` | Editor background, sidebar |
 | ![#26292e](swatches/26292e.png) Near Black | `#26292e` | Inputs, lists, menus, line highlight |
 | ![#1b1a1d](swatches/1b1a1d.png) Black | `#1b1a1d` | Drop backgrounds, line numbers, status bar foreground |
+| ![#000000](swatches/000000.png) True Black | `#000000` | Title bar inactive foreground |
 
 ### Syntax (Solarized Dark)
 
