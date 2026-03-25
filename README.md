@@ -72,6 +72,7 @@ To publish to the VS Code Marketplace:
 * [Manage publishers and extensions](https://marketplace.visualstudio.com/manage/publishers/Andornaut)
 
 ```bash
+npm version patch  # or minor, major
 npx vsce login Andornaut
 npx vsce publish
 ```
