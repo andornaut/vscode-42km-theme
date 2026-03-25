@@ -44,6 +44,7 @@
         "url": "https://github.com/andornaut/vscode-42KM-theme"
     },
     "scripts": {
+        "package": "vsce package --out dist/",
         "swatches": "rm -rf swatches && mkdir swatches && color-swatches --format png swatches themes/*.json"
     },
     "devDependencies": {
