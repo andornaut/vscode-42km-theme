@@ -26,11 +26,10 @@ This color theme uses [Solarized Dark](https://ethanschoonover.com/solarized/) [
 | ![#c4071c](swatches/c4071c.png) Red | `#c4071c` | Errors, git deleted |
 | ![#f1f1f1](swatches/f1f1f1.png) Near White | `#f1f1f1` | Foreground text |
 | ![#c1c7c7](swatches/c1c7c7.png) Silver | `#c1c7c7` | Breadcrumb foreground, status bar, inactive tab foreground |
-| ![#919797](swatches/919797.png) Gray | `#919797` | Ignored files |
-| ![#93ada0](swatches/93ada0.png) Sage | `#93ada0` | Activity bar, scrollbar background |
+| ![#93ada0](swatches/93ada0.png) Sage | `#93ada0` | Activity bar, scrollbar background, ignored files |
 | ![#728083](swatches/728083.png) Slate | `#728083` | Borders |
 | ![#545860](swatches/545860.png) Dark Gray | `#545860` | Inactive elements, gutter, tab headers, ruler, inactive tabs |
-| ![#414247](swatches/414247.png) Charcoal Gray | `#414247` | Hover backgrounds, panel |
+| ![#404346](swatches/404346.png) Charcoal Gray | `#404346` | Hover backgrounds, panel |
 | ![#353a3c](swatches/353a3c.png) Dark Teal | `#353a3c` | Editor background, sidebar |
 | ![#282a2c](swatches/282a2c.png) Near Black | `#282a2c` | Inputs, lists, menus, line highlight, status bar foreground |
 | ![#1b1a1d](swatches/1b1a1d.png) Black | `#1b1a1d` | Drop backgrounds, line numbers |
