@@ -4,8 +4,8 @@ A [Marathon](https://marathonthegame.com/) (video game) inspired dark color them
 
 ## Installation
 
-1. Download and install from the [Extension Marketplace](https://marketplace.visualstudio.com/items?itemName=Andornaut.42km-theme)
-   * Alternatively, launch VS Code *Quick Open* menu (Ctrl+P), paste the following command, and press enter: `ext install Andornaut.42km-theme`
+1. Install from the [Extension Marketplace](https://marketplace.visualstudio.com/items?itemName=Andornaut.42km-theme)
+   * Alternatively, press CTRL+p to open the "Quick Open" menu, and run the following command: `ext install Andornaut.42km-theme`
 1. Select: File > Preferences > Themes > Color Theme > 42KM
 
 ![screenshot](./screenshot.png)
