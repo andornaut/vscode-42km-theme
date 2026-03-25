@@ -73,6 +73,7 @@ To publish to the VS Code Marketplace:
 
 ```bash
 npm version patch  # or minor, major
+git push && git push --tags
 npx vsce login Andornaut
 npx vsce publish
 ```
