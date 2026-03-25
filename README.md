@@ -31,8 +31,8 @@ This color theme uses [Solarized Dark](https://ethanschoonover.com/solarized/) [
 | ![#728083](swatches/728083.png) Slate | `#728083` | Borders |
 | ![#545860](swatches/545860.png) Dark Gray | `#545860` | Inactive elements, gutter, tab headers, ruler, inactive tabs |
 | ![#414247](swatches/414247.png) Charcoal Gray | `#414247` | Hover backgrounds, panel |
-| ![#353b3d](swatches/353b3d.png) Dark Teal | `#353b3d` | Editor background, sidebar |
-| ![#26292e](swatches/26292e.png) Near Black | `#26292e` | Inputs, lists, menus, line highlight, status bar foreground |
+| ![#353a3c](swatches/353a3c.png) Dark Teal | `#353a3c` | Editor background, sidebar |
+| ![#282a2c](swatches/282a2c.png) Near Black | `#282a2c` | Inputs, lists, menus, line highlight, status bar foreground |
 | ![#1b1a1d](swatches/1b1a1d.png) Black | `#1b1a1d` | Drop backgrounds, line numbers |
 | ![#000000](swatches/000000.png) True Black | `#000000` | Title bar inactive foreground |
 
