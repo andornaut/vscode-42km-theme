@@ -17,6 +17,7 @@ This color theme uses [Solarized Dark](https://ethanschoonover.com/solarized/) [
 | ![#c0fe04](swatches/c0fe04.png) Lime Green | `#c0fe04` | Primary accent — cursor, links, active line number, focus border, git modified |
 | ![#4030d0](swatches/4030d0.png) Blue-Purple | `#4030d0` | Active tabs, breadcrumb background |
 | ![#7c48e2](swatches/7c48e2.png) Purple | `#7c48e2` | Activity bar active, toolbar hover |
+| ![#03f688](swatches/03f688.png) Bright Green | `#03f688` | Scrollbar active/hover, sash hover |
 | ![#01e17d](swatches/01e17d.png) Green | `#01e17d` | Find matches, git added |
 | ![#ff69b4](swatches/ff69b4.png) Hot Pink | `#ff69b4` | Bracket match, match highlight borders, peek view border, debugging status bar |
 | ![#7289da](swatches/7289da.png) Periwinkle | `#7289da` | Title bar |
@@ -27,7 +28,7 @@ This color theme uses [Solarized Dark](https://ethanschoonover.com/solarized/) [
 | ![#f1f1f1](swatches/f1f1f1.png) Near White | `#f1f1f1` | Foreground text |
 | ![#c1c7c7](swatches/c1c7c7.png) Silver | `#c1c7c7` | Breadcrumb foreground, status bar, inactive tab foreground |
 | ![#919797](swatches/919797.png) Gray | `#919797` | Ignored files |
-| ![#93ada0](swatches/93ada0.png) Sage | `#93ada0` | Activity bar, scrollbar |
+| ![#93ada0](swatches/93ada0.png) Sage | `#93ada0` | Activity bar, scrollbar background |
 | ![#728083](swatches/728083.png) Slate | `#728083` | Borders |
 | ![#545860](swatches/545860.png) Dark Gray | `#545860` | Inactive elements, gutter, tab headers, ruler, inactive tabs |
 | ![#414247](swatches/414247.png) Charcoal Gray | `#414247` | Hover backgrounds, panel |
