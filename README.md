@@ -17,8 +17,7 @@ This color theme uses [Solarized Dark](https://ethanschoonover.com/solarized/) [
 | ![#c0fe04](swatches/c0fe04.png) Lime Green | `#c0fe04` | Primary accent — cursor, links, active line number, focus border, git modified |
 | ![#4030d0](swatches/4030d0.png) Blue-Purple | `#4030d0` | Active tabs, breadcrumb background |
 | ![#7c48e2](swatches/7c48e2.png) Purple | `#7c48e2` | Activity bar active, toolbar hover |
-| ![#03f688](swatches/03f688.png) Bright Green | `#03f688` | Scrollbar active/hover, sash hover |
-| ![#01e17d](swatches/01e17d.png) Green | `#01e17d` | Find matches, git added |
+| ![#03f688](swatches/03f688.png) Bright Green | `#03f688` | Find matches, git added, scrollbar active/hover, sash hover |
 | ![#ff69b4](swatches/ff69b4.png) Hot Pink | `#ff69b4` | Bracket match, match highlight borders, peek view border, debugging status bar |
 | ![#7289da](swatches/7289da.png) Periwinkle | `#7289da` | Title bar |
 | ![#41a0eb](swatches/41a0eb.png) Blue | `#41a0eb` | Info, git untracked |
