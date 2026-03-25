@@ -49,6 +49,15 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+
+      - name: Detect version tag
+        id: version
+        run: |
+          TAG=$(git tag --points-at HEAD | grep '^v' | head -n1)
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
 
       - name: Delete previous latest release
         if: github.ref == 'refs/heads/main'
@@ -63,12 +72,23 @@ jobs:
         with:
           path: artifacts
 
-      - name: Create release
+      - name: Create latest release
+        if: github.ref == 'refs/heads/main'
         uses: softprops/action-gh-release@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref == 'refs/heads/main' && 'latest' || github.ref_name }}
-          name: ${{ github.ref == 'refs/heads/main' && 'latest' || github.ref_name }}
-          body: ${{ github.ref == 'refs/heads/main' && 'Latest build from main branch' || '' }}
+          tag_name: latest
+          name: latest
+          body: Latest build from main branch
+          files: artifacts/vsix/*.vsix
+
+      - name: Create version release
+        if: steps.version.outputs.tag != ''
+        uses: softprops/action-gh-release@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: ${{ steps.version.outputs.tag }}
           files: artifacts/vsix/*.vsix
