@@ -21,14 +21,13 @@ A [Marathon](https://marathonthegame.com/) (video game) inspired dark color them
 | ![#7c48e2](swatches/7c48e2.png) Purple | `#7c48e2` | Activity bar active, toolbar hover |
 | ![#03f688](swatches/03f688.png) Bright Green | `#03f688` | Find matches, git added, scrollbar active/hover, sash hover |
 | ![#ff69b4](swatches/ff69b4.png) Hot Pink | `#ff69b4` | Bracket match, match highlight borders, peek view border, debugging status bar |
-| ![#7289da](swatches/7289da.png) Periwinkle | `#7289da` | Title bar |
-| ![#41a0eb](swatches/41a0eb.png) Blue | `#41a0eb` | Info, git untracked |
+| ![#7084c8](swatches/7084c8.png) Steel Blue | `#7084c8` | Title bar, info, git untracked |
 | ![#ff5c00](swatches/ff5c00.png) Orange | `#ff5c00` | Warnings, breakpoints |
 | ![#c4071c](swatches/c4071c.png) Red | `#c4071c` | Errors, git deleted |
 | ![#f1f1f1](swatches/f1f1f1.png) Near White | `#f1f1f1` | Foreground text |
-| ![#c1c7c7](swatches/c1c7c7.png) Silver | `#c1c7c7` | Breadcrumb foreground, status bar, inactive tab foreground |
-| ![#93ada0](swatches/93ada0.png) Sage | `#93ada0` | Activity bar, scrollbar background, ignored files |
-| ![#728083](swatches/728083.png) Slate | `#728083` | Borders |
+| ![#c1c7c7](swatches/c1c7c7.png) Silver | `#c1c7c7` | Breadcrumb foreground, inactive tab foreground |
+| ![#93ada0](swatches/93ada0.png) Sage | `#93ada0` | Activity bar, scrollbar background, status bar, sidebar header text |
+| ![#687880](swatches/687880.png) Slate | `#687880` | Borders, git ignored |
 | ![#545860](swatches/545860.png) Dark Gray | `#545860` | Inactive elements, gutter, tab headers, ruler, inactive tabs |
 | ![#404346](swatches/404346.png) Charcoal Gray | `#404346` | Hover backgrounds, panel |
 | ![#353a3c](swatches/353a3c.png) Dark Teal | `#353a3c` | Editor background, selection, sidebar |
