@@ -28,10 +28,10 @@ A [Marathon](https://marathonthegame.com/) (video game) inspired dark color them
 | ![#c1c7c7](swatches/c1c7c7.png) Silver | `#c1c7c7` | Breadcrumb foreground, inactive tab foreground |
 | ![#93ada0](swatches/93ada0.png) Sage | `#93ada0` | Activity bar, scrollbar background, status bar, sidebar header text |
 | ![#687880](swatches/687880.png) Slate | `#687880` | Borders, git ignored |
-| ![#545860](swatches/545860.png) Dark Gray | `#545860` | Inactive elements, gutter, tab headers, ruler, inactive tabs |
+| ![#545860](swatches/545860.png) Dark Gray | `#545860` | Inactive elements, gutter, tab headers, ruler, inactive tabs, status bar foreground |
 | ![#404346](swatches/404346.png) Charcoal Gray | `#404346` | Hover backgrounds, panel |
 | ![#353a3c](swatches/353a3c.png) Dark Teal | `#353a3c` | Editor background, selection, sidebar |
-| ![#282a2c](swatches/282a2c.png) Near Black | `#282a2c` | Inputs, lists, menus, line highlight, status bar foreground |
+| ![#282a2c](swatches/282a2c.png) Near Black | `#282a2c` | Inputs, lists, menus, line highlight |
 | ![#1b1b1b](swatches/1b1b1b.png) Black | `#1b1b1b` | Drop backgrounds, line numbers |
 
 ### Syntax
