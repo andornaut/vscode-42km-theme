@@ -25,8 +25,8 @@ A [Marathon](https://marathonthegame.com/) (video game) inspired dark color them
 | ![#ff5c00](swatches/ff5c00.png) Orange | `#ff5c00` | Warnings, breakpoints |
 | ![#c4071c](swatches/c4071c.png) Red | `#c4071c` | Errors, git deleted |
 | ![#f1f1f1](swatches/f1f1f1.png) Near White | `#f1f1f1` | Foreground text |
-| ![#c1c7c7](swatches/c1c7c7.png) Silver | `#c1c7c7` | Breadcrumb foreground, inactive tab foreground |
-| ![#93ada0](swatches/93ada0.png) Sage | `#93ada0` | Activity bar, scrollbar background, status bar, sidebar header text |
+| ![#c1c7c7](swatches/c1c7c7.png) Silver | `#c1c7c7` | Breadcrumb foreground, inactive tab foreground, status bar |
+| ![#93ada0](swatches/93ada0.png) Sage | `#93ada0` | Activity bar, scrollbar background, sidebar header text |
 | ![#687880](swatches/687880.png) Slate | `#687880` | Borders, git ignored |
 | ![#545860](swatches/545860.png) Dark Gray | `#545860` | Inactive elements, gutter, tab headers, ruler, inactive tabs, status bar foreground |
 | ![#404346](swatches/404346.png) Charcoal Gray | `#404346` | Hover backgrounds, panel |
