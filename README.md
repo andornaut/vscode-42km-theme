@@ -8,7 +8,7 @@ A [Marathon](https://marathonthegame.com/) (video game) inspired dark color them
    * Alternatively, press CTRL+p to open the "Quick Open" menu, and run the following command: `ext install Andornaut.42km-theme`
 1. Select: File > Preferences > Themes > Color Theme > 42KM
 
-![screenshot](./screenshot.png)
+[![screenshot](./screenshot.png)](./screenshot.png)
 
 ## Colors
 
