@@ -17,7 +17,7 @@ A [Marathon](https://marathonthegame.com/) (video game) inspired dark color them
 | Color | Hex | Usage |
 | ----- | --- | ----- |
 | ![#c2fe0b](swatches/c2fe0b.png) Lime Green | `#c2fe0b` | Primary accent — cursor, links, active line number, focus border, git modified |
-| ![#4030d0](swatches/4030d0.png) Blue-Purple | `#4030d0` | Active tabs, breadcrumb background, editor selection |
+| ![#4034c0](swatches/4034c0.png) Blue-Purple | `#4034c0` | Active tabs, breadcrumb background, editor selection |
 | ![#7c48e2](swatches/7c48e2.png) Purple | `#7c48e2` | Activity bar active, toolbar hover |
 | ![#00f080](swatches/00f080.png) Bright Green | `#00f080` | Find matches, git added, scrollbar active/hover, sash hover |
 | ![#ff69b4](swatches/ff69b4.png) Hot Pink | `#ff69b4` | Bracket match, match highlight borders, peek view border, debugging status bar |
