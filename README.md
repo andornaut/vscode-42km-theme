@@ -21,7 +21,7 @@ A [Marathon](https://marathonthegame.com/) (video game) inspired dark color them
 | ![#7c48e2](swatches/7c48e2.png) Purple | `#7c48e2` | Activity bar active, toolbar hover |
 | ![#00f080](swatches/00f080.png) Bright Green | `#00f080` | Find matches, git added, scrollbar active/hover, sash hover |
 | ![#ff69b4](swatches/ff69b4.png) Hot Pink | `#ff69b4` | Bracket match, match highlight borders, peek view border, debugging status bar |
-| ![#4d9dd6](swatches/4d9dd6.png) Steel Blue | `#4d9dd6` | Title bar, info, git untracked |
+| ![#4893c2](swatches/4893c2.png) Steel Blue | `#4893c2` | Title bar, info, git untracked |
 | ![#ff5c00](swatches/ff5c00.png) Orange | `#ff5c00` | Warnings, breakpoints |
 | ![#c4071c](swatches/c4071c.png) Red | `#c4071c` | Errors, git deleted |
 | ![#f1f1f1](swatches/f1f1f1.png) Near White | `#f1f1f1` | Foreground text |

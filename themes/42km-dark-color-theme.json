@@ -109,9 +109,9 @@
 		"terminal.foreground": "#f1f1f1",
 		"textLink.activeForeground": "#c2fe0b",
 		"textLink.foreground": "#c2fe0b",
-		"titleBar.activeBackground": "#4d9dd6",
+		"titleBar.activeBackground": "#4893c2",
 		"titleBar.activeForeground": "#282a2c",
-		"titleBar.inactiveBackground": "#4d9dd6",
+		"titleBar.inactiveBackground": "#4893c2",
 		"titleBar.inactiveForeground": "#282a2c",
 		"toolbar.activeBackground": "#282a2c",
 		"toolbar.hoverBackground": "#7c48e2"
