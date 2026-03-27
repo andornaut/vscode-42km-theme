@@ -16,23 +16,23 @@ A [Marathon](https://marathonthegame.com/) (video game) inspired dark color them
 
 | Color | Hex | Usage |
 | ----- | --- | ----- |
-| ![#c0fe04](swatches/c0fe04.png) Lime Green | `#c0fe04` | Primary accent — cursor, links, active line number, focus border, git modified |
+| ![#c2fe0b](swatches/c2fe0b.png) Lime Green | `#c2fe0b` | Primary accent — cursor, links, active line number, focus border, git modified |
 | ![#4030d0](swatches/4030d0.png) Blue-Purple | `#4030d0` | Active tabs, breadcrumb background, editor selection |
 | ![#7c48e2](swatches/7c48e2.png) Purple | `#7c48e2` | Activity bar active, toolbar hover |
-| ![#03f688](swatches/03f688.png) Bright Green | `#03f688` | Find matches, git added, scrollbar active/hover, sash hover |
+| ![#00f080](swatches/00f080.png) Bright Green | `#00f080` | Find matches, git added, scrollbar active/hover, sash hover |
 | ![#ff69b4](swatches/ff69b4.png) Hot Pink | `#ff69b4` | Bracket match, match highlight borders, peek view border, debugging status bar |
-| ![#7084c8](swatches/7084c8.png) Steel Blue | `#7084c8` | Title bar, info, git untracked |
+| ![#4d9dd6](swatches/4d9dd6.png) Steel Blue | `#4d9dd6` | Title bar, info, git untracked |
 | ![#ff5c00](swatches/ff5c00.png) Orange | `#ff5c00` | Warnings, breakpoints |
 | ![#c4071c](swatches/c4071c.png) Red | `#c4071c` | Errors, git deleted |
 | ![#f1f1f1](swatches/f1f1f1.png) Near White | `#f1f1f1` | Foreground text |
-| ![#c1c7c7](swatches/c1c7c7.png) Silver | `#c1c7c7` | Breadcrumb foreground, inactive tab foreground, status bar |
+| ![#c1c7d7](swatches/c1c7d7.png) Silver Blue | `#c1c7d7` | Status bar |
+| ![#c0c8cf](swatches/c0c8cf.png) Silver | `#c0c8cf` | Breadcrumb foreground, inactive tab foreground |
 | ![#93ada0](swatches/93ada0.png) Sage | `#93ada0` | Activity bar, scrollbar background, sidebar header text |
 | ![#687880](swatches/687880.png) Slate | `#687880` | Borders, git ignored |
 | ![#545860](swatches/545860.png) Dark Gray | `#545860` | Inactive elements, gutter, tab headers, ruler, inactive tabs, status bar foreground |
 | ![#404346](swatches/404346.png) Charcoal Gray | `#404346` | Hover backgrounds, panel |
 | ![#353a3c](swatches/353a3c.png) Dark Teal | `#353a3c` | Editor background, sidebar |
-| ![#282a2c](swatches/282a2c.png) Near Black | `#282a2c` | Inputs, lists, menus, line highlight |
-| ![#1b1b1b](swatches/1b1b1b.png) Black | `#1b1b1b` | Drop backgrounds, line numbers |
+| ![#282a2c](swatches/282a2c.png) Near Black | `#282a2c` | Inputs, lists, menus, line highlight, drop backgrounds, line numbers |
 
 ### Syntax
 
