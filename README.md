@@ -19,7 +19,7 @@ A [Marathon](https://marathonthegame.com/) (video game) inspired dark color them
 
 | Color | Hex | Usage |
 | ----- | --- | ----- |
-| ![#c2fe0b](swatches/c2fe0b.png) Lime Green | `#c2fe0b` | Primary accent — cursor, links, active line number, focus border, git modified |
+| ![#c2fe0b](swatches/c2fe0b.png) Lime Green | `#c2fe0b` | Primary accent: cursor, links, active line number, focus border, git modified |
 | ![#4034c0](swatches/4034c0.png) Blue-Purple | `#4034c0` | Active tabs, breadcrumb background, editor selection |
 | ![#7c48e2](swatches/7c48e2.png) Purple | `#7c48e2` | Activity bar active, toolbar hover |
 | ![#00f080](swatches/00f080.png) Bright Green | `#00f080` | Find matches, git added, scrollbar active/hover, sash hover |
@@ -69,7 +69,7 @@ A [Release workflow](.github/workflows/release.yml) runs on every push to `main`
 To publish to the VS Code Marketplace:
 
 * [Publishing extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
-* [Get a Personal Access Token](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token) — set **Organization** to **All accessible organizations**
+* [Get a Personal Access Token](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token): set **Organization** to **All accessible organizations**
 * [Manage publishers and extensions](https://marketplace.visualstudio.com/manage/publishers/Andornaut)
 
 ```bash
@@ -81,5 +81,5 @@ npx vsce publish
 ### Guides
 
 * [Extension guide: color theme](https://code.visualstudio.com/api/extension-guides/color-theme)
-* [colorRegistry.ts](https://github.com/microsoft/vscode/blob/main/src/vs/platform/theme/common/colorRegistry.ts) — authoritative source for all valid theme color keys
+* [colorRegistry.ts](https://github.com/microsoft/vscode/blob/main/src/vs/platform/theme/common/colorRegistry.ts): authoritative source for all valid theme color keys
 * [Theme color documentation](https://code.visualstudio.com/api/references/theme-color)
