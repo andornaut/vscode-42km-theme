@@ -8,7 +8,7 @@ A [Marathon](https://marathonthegame.com/) (video game) inspired dark color them
 ## Installation
 
 1. Install from the [Extension Marketplace](https://marketplace.visualstudio.com/items?itemName=Andornaut.42km-theme)
-   * Alternatively, press CTRL+p to open the "Quick Open" menu, and run the following command: `ext install Andornaut.42km-theme`
+   - Alternatively, press CTRL+p to open the "Quick Open" menu, and run the following command: `ext install Andornaut.42km-theme`
 1. Select: File > Preferences > Themes > Color Theme > 42KM
 
 [![screenshot](./screenshot.png)](./screenshot.png)
@@ -17,42 +17,42 @@ A [Marathon](https://marathonthegame.com/) (video game) inspired dark color them
 
 ### UI
 
-| Color | Hex | Usage |
-| ----- | --- | ----- |
-| ![#c2fe0b](swatches/c2fe0b.png) Lime Green | `#c2fe0b` | Primary accent: cursor, links, active line number, focus border, git modified |
-| ![#4034c0](swatches/4034c0.png) Blue-Purple | `#4034c0` | Active tabs, breadcrumb background, editor selection |
-| ![#7c48e2](swatches/7c48e2.png) Purple | `#7c48e2` | Activity bar active, toolbar hover |
-| ![#00f080](swatches/00f080.png) Bright Green | `#00f080` | Find matches, git added, scrollbar active/hover, sash hover |
-| ![#ff69b4](swatches/ff69b4.png) Hot Pink | `#ff69b4` | Bracket match, match highlight borders, peek view border, debugging status bar |
-| ![#4893c2](swatches/4893c2.png) Steel Blue | `#4893c2` | Title bar, info foreground, git untracked |
-| ![#ff5c00](swatches/ff5c00.png) Orange | `#ff5c00` | Warnings, breakpoints |
-| ![#c4071c](swatches/c4071c.png) Red | `#c4071c` | Errors, git deleted |
-| ![#f1f1f1](swatches/f1f1f1.png) Near White | `#f1f1f1` | Foreground text |
-| ![#c0c8cf](swatches/c0c8cf.png) Silver | `#c0c8cf` | Status bar, breadcrumb foreground, inactive tab foreground |
-| ![#93ada0](swatches/93ada0.png) Sage | `#93ada0` | Activity bar, scrollbar background, sidebar header text |
-| ![#687880](swatches/687880.png) Slate | `#687880` | Borders, git ignored |
-| ![#545860](swatches/545860.png) Dark Gray | `#545860` | Inactive elements, gutter, tab headers, ruler, inactive tabs, status bar foreground |
-| ![#404346](swatches/404346.png) Charcoal Gray | `#404346` | Hover backgrounds, panel |
-| ![#353a3c](swatches/353a3c.png) Dark Teal | `#353a3c` | Editor background, sidebar |
-| ![#282a2c](swatches/282a2c.png) Near Black | `#282a2c` | Inputs, lists, menus, line highlight, drop backgrounds, line numbers |
+| Color                                         | Hex       | Usage                                                                               |
+| --------------------------------------------- | --------- | ----------------------------------------------------------------------------------- |
+| ![#c2fe0b](swatches/c2fe0b.png) Lime Green    | `#c2fe0b` | Primary accent: cursor, links, active line number, focus border, git modified       |
+| ![#4034c0](swatches/4034c0.png) Blue-Purple   | `#4034c0` | Active tabs, breadcrumb background, editor selection                                |
+| ![#7c48e2](swatches/7c48e2.png) Purple        | `#7c48e2` | Activity bar active, toolbar hover                                                  |
+| ![#00f080](swatches/00f080.png) Bright Green  | `#00f080` | Find matches, git added, scrollbar active/hover, sash hover                         |
+| ![#ff69b4](swatches/ff69b4.png) Hot Pink      | `#ff69b4` | Bracket match, match highlight borders, peek view border, debugging status bar      |
+| ![#4893c2](swatches/4893c2.png) Steel Blue    | `#4893c2` | Title bar, info foreground, git untracked                                           |
+| ![#ff5c00](swatches/ff5c00.png) Orange        | `#ff5c00` | Warnings, breakpoints                                                               |
+| ![#c4071c](swatches/c4071c.png) Red           | `#c4071c` | Errors, git deleted                                                                 |
+| ![#f1f1f1](swatches/f1f1f1.png) Near White    | `#f1f1f1` | Foreground text                                                                     |
+| ![#c0c8cf](swatches/c0c8cf.png) Silver        | `#c0c8cf` | Status bar, breadcrumb foreground, inactive tab foreground                          |
+| ![#93ada0](swatches/93ada0.png) Sage          | `#93ada0` | Activity bar, scrollbar background, sidebar header text                             |
+| ![#687880](swatches/687880.png) Slate         | `#687880` | Borders, git ignored                                                                |
+| ![#545860](swatches/545860.png) Dark Gray     | `#545860` | Inactive elements, gutter, tab headers, ruler, inactive tabs, status bar foreground |
+| ![#404346](swatches/404346.png) Charcoal Gray | `#404346` | Hover backgrounds, panel                                                            |
+| ![#353a3c](swatches/353a3c.png) Dark Teal     | `#353a3c` | Editor background, sidebar                                                          |
+| ![#282a2c](swatches/282a2c.png) Near Black    | `#282a2c` | Inputs, lists, menus, line highlight, drop backgrounds, line numbers                |
 
 ### Syntax
 
 This color theme uses [Solarized Dark](https://ethanschoonover.com/solarized/) [`tokenColors`](https://github.com/microsoft/vscode/blob/main/extensions/theme-solarized-dark/themes/solarized-dark-color-theme.json).
 
-| Color | Hex | Usage |
-| ----- | --- | ----- |
-| ![#859900](swatches/859900.png) Green | `#859900` | Keywords, variable start, library class/type, diff inserted |
-| ![#2AA198](swatches/2aa198.png) Cyan | `#2AA198` | Strings, markup inline |
-| ![#268BD2](swatches/268bd2.png) Blue | `#268BD2` | Variables, functions, tags, headings, diff header |
-| ![#6C71C4](swatches/6c71c4.png) Violet | `#6C71C4` | Inherited class |
-| ![#D33682](swatches/d33682.png) Magenta | `#D33682` | Numbers, markup styling |
-| ![#CB4B16](swatches/cb4b16.png) Orange | `#CB4B16` | Class names, constants, exceptions, diff changed |
-| ![#B58900](swatches/b58900.png) Yellow | `#B58900` | Built-in constants, markup lists |
-| ![#DC322F](swatches/dc322f.png) Red | `#DC322F` | Errors, regexp, invalid, diff deleted |
-| ![#93A1A1](swatches/93a1a1.png) Light Gray | `#93A1A1` | Storage, tag attributes |
-| ![#839496](swatches/839496.png) Base0 | `#839496` | Default foreground |
-| ![#586E75](swatches/586e75.png) Dark Gray | `#586E75` | Comments, tag delimiters |
+| Color                                      | Hex       | Usage                                                       |
+| ------------------------------------------ | --------- | ----------------------------------------------------------- |
+| ![#859900](swatches/859900.png) Green      | `#859900` | Keywords, variable start, library class/type, diff inserted |
+| ![#2AA198](swatches/2aa198.png) Cyan       | `#2AA198` | Strings, markup inline                                      |
+| ![#268BD2](swatches/268bd2.png) Blue       | `#268BD2` | Variables, functions, tags, headings, diff header           |
+| ![#6C71C4](swatches/6c71c4.png) Violet     | `#6C71C4` | Inherited class                                             |
+| ![#D33682](swatches/d33682.png) Magenta    | `#D33682` | Numbers, markup styling                                     |
+| ![#CB4B16](swatches/cb4b16.png) Orange     | `#CB4B16` | Class names, constants, exceptions, diff changed            |
+| ![#B58900](swatches/b58900.png) Yellow     | `#B58900` | Built-in constants, markup lists                            |
+| ![#DC322F](swatches/dc322f.png) Red        | `#DC322F` | Errors, regexp, invalid, diff deleted                       |
+| ![#93A1A1](swatches/93a1a1.png) Light Gray | `#93A1A1` | Storage, tag attributes                                     |
+| ![#839496](swatches/839496.png) Base0      | `#839496` | Default foreground                                          |
+| ![#586E75](swatches/586e75.png) Dark Gray  | `#586E75` | Comments, tag delimiters                                    |
 
 Color swatches are generated by [color-swatches-action](https://github.com/andornaut/color-swatches-action).
 
@@ -68,9 +68,9 @@ A [Release workflow](.github/workflows/release.yml) runs on every push to `main`
 
 To publish to the VS Code Marketplace:
 
-* [Publishing extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
-* [Get a Personal Access Token](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token): set **Organization** to **All accessible organizations**
-* [Manage publishers and extensions](https://marketplace.visualstudio.com/manage/publishers/Andornaut)
+- [Publishing extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
+- [Get a Personal Access Token](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token): set **Organization** to **All accessible organizations**
+- [Manage publishers and extensions](https://marketplace.visualstudio.com/manage/publishers/Andornaut)
 
 ```bash
 npm version patch  # or minor, major
@@ -80,6 +80,6 @@ npx vsce publish
 
 ### Guides
 
-* [Extension guide: color theme](https://code.visualstudio.com/api/extension-guides/color-theme)
-* [colorRegistry.ts](https://github.com/microsoft/vscode/blob/main/src/vs/platform/theme/common/colorRegistry.ts): authoritative source for all valid theme color keys
-* [Theme color documentation](https://code.visualstudio.com/api/references/theme-color)
+- [Extension guide: color theme](https://code.visualstudio.com/api/extension-guides/color-theme)
+- [colorRegistry.ts](https://github.com/microsoft/vscode/blob/main/src/vs/platform/theme/common/colorRegistry.ts): authoritative source for all valid theme color keys
+- [Theme color documentation](https://code.visualstudio.com/api/references/theme-color)

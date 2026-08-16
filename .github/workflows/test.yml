@@ -47,6 +47,18 @@ jobs:
           # in .git/config for a later step to read.
           persist-credentials: false
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v7.0.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
       # The theme files are the whole of what this repository ships, and vsce
       # packages them without reading them, so a trailing comma or a stray
       # brace would reach the marketplace as a theme no editor can load.
