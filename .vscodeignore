@@ -1,6 +1,8 @@
 .claude/**
 .github/**
 AGENTS.md
+CLAUDE.md
+GEMINI.md
 node_modules/
 .vscode/**
 .vscode-test/**
