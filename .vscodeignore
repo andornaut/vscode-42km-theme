@@ -7,4 +7,5 @@ node_modules/
 screenshots/
 .gitignore
 .nvmrc
+.prettierignore
 package-lock.json
