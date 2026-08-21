@@ -2,7 +2,7 @@
   "name": "42km-theme",
   "displayName": "42KM color theme",
   "description": "A Marathon-inspired dark color theme",
-  "homepage": "https://github.com/andornaut/vscode-42KM-theme",
+  "homepage": "https://github.com/andornaut/vscode-42km-theme",
   "icon": "icon.png",
   "license": "MIT",
   "publisher": "Andornaut",
@@ -38,11 +38,11 @@
     "solarized"
   ],
   "bugs": {
-    "url": "https://github.com/andornaut/vscode-42KM-theme/issues"
+    "url": "https://github.com/andornaut/vscode-42km-theme/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/andornaut/vscode-42KM-theme"
+    "url": "https://github.com/andornaut/vscode-42km-theme"
   },
   "scripts": {
     "format": "prettier --write .",
