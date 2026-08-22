@@ -5,6 +5,7 @@
   "homepage": "https://github.com/andornaut/vscode-42km-theme",
   "icon": "icon.png",
   "license": "MIT",
+  "private": true,
   "publisher": "Andornaut",
   "version": "0.2.0",
   "categories": [
