@@ -1,6 +1,6 @@
 # 42KM theme for Visual Studio Code
 
-[![CI](https://github.com/andornaut/vscode-42km-theme/actions/workflows/release.yml/badge.svg)](https://github.com/andornaut/vscode-42km-theme/actions/workflows/release.yml)
+[![Release](https://github.com/andornaut/vscode-42km-theme/actions/workflows/release.yml/badge.svg)](https://github.com/andornaut/vscode-42km-theme/actions/workflows/release.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/MIT)
 
 A [Marathon](https://marathonthegame.com/) (video game) inspired dark color theme for [Visual Studio Code](https://code.visualstudio.com).
