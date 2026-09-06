@@ -56,7 +56,7 @@
     "@vscode/vsce": "^3.9.2",
     "color-swatches": "github:andornaut/color-swatches-action#v1.0.3",
     "husky": "^9.1.7",
-    "lint-staged": "^17.3.0",
+    "lint-staged": "^17.4.1",
     "prettier": "^3.9.6"
   }
 }
