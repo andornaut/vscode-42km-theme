@@ -53,7 +53,7 @@
     "swatches": "rm -rf swatches && mkdir swatches && color-swatches --format png swatches themes/*.json"
   },
   "devDependencies": {
-    "@vscode/vsce": "^3.9.2",
+    "@vscode/vsce": "^4.0.0",
     "color-swatches": "github:andornaut/color-swatches-action#v1.0.3",
     "husky": "^9.1.7",
     "lint-staged": "^17.5.1",
