@@ -1,3 +1,3 @@
 {
-  "*": "prettier --write --ignore-unknown"
+  "*": "tests/container/staged prettier --write --ignore-unknown"
 }
