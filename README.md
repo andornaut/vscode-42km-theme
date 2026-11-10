@@ -110,3 +110,8 @@ container writer remains unresolved, preserving the working files and backup.
 
 `make build` exports the generated `dist/` directory. The full check gate verifies
 the same build in scratch without exporting artifacts.
+
+WORKAROUND: Markdownlint CLI 0.24.0 overrides pin patched dependencies for
+[GHSA-gg6h-894w-4m9c](https://github.com/advisories/GHSA-gg6h-894w-4m9c) and
+[GHSA-238p-pmpm-9mq7](https://github.com/advisories/GHSA-238p-pmpm-9mq7).
+Remove the overrides when upstream dependencies include these fixes.
