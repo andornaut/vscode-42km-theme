@@ -21,13 +21,14 @@ case "$task" in
     lint)
         bash -n tests/container/run tests/container/staged tests/container/staged-git
         sh -n tests/container/check
+        shellcheck -x -P SCRIPTDIR tests/container/run tests/container/staged tests/container/staged-git tests/container/check
         npm run lint:internal
         markdownlint-cli2
         node --input-type=module -e '
             import { readdirSync, readFileSync } from "node:fs";
             for (const name of readdirSync("themes")) {
                 if (name.endsWith(".json")) {
-                    JSON.parse(readFileSync(`themes/${name}`, "utf8"));
+                    JSON.parse(readFileSync("themes/" + name, "utf8"));
                 }
             }
         '
