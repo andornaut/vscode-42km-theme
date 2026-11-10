@@ -11,3 +11,6 @@ screenshots/
 .nvmrc
 .prettierignore
 package-lock.json
+Makefile
+tests/**
+dist/**

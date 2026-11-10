@@ -46,11 +46,17 @@
     "url": "https://github.com/andornaut/vscode-42km-theme"
   },
   "scripts": {
-    "format": "prettier --write .",
-    "lint": "prettier --check .",
-    "package": "mkdir -p dist && vsce package --out dist/",
+    "format": "make exec COMMAND='npm run format:internal'",
+    "lint": "make lint",
+    "package": "make build",
     "prepare": "husky",
-    "swatches": "rm -rf swatches && mkdir swatches && color-swatches --format png swatches themes/*.json"
+    "swatches": "rm -rf swatches && mkdir swatches && color-swatches --format png swatches themes/*.json",
+    "lint:internal": "prettier --check .",
+    "format:internal": "prettier --write .",
+    "package:internal": "mkdir -p dist && vsce package --out dist/",
+    "check": "make check",
+    "test": "make test",
+    "build": "make build"
   },
   "devDependencies": {
     "@vscode/vsce": "^4.1.0",

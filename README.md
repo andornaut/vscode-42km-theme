@@ -83,3 +83,24 @@ npx vsce publish
 - [Extension guide: color theme](https://code.visualstudio.com/api/extension-guides/color-theme)
 - [colorRegistry.ts](https://github.com/microsoft/vscode/blob/main/src/vs/platform/theme/common/colorRegistry.ts): authoritative source for all valid theme color keys
 - [Theme color documentation](https://code.visualstudio.com/api/references/theme-color)
+
+## Container checks
+
+Docker and Make run verification without a host Node.js installation:
+
+```bash
+make check
+make check-info
+```
+
+`make check` runs every declared lint, test and build check in an isolated
+container. `npm run check` is the native alias. `make lint`, `make test` and
+`make build` run individual categories; an undeclared category fails explicitly.
+The checkout is read-only during checks, and caches and generated files stay in
+container scratch storage. `make exec COMMAND='npm update'` runs an intentional
+package operation with writable project files and protected Git metadata.
+
+No test suite is declared.
+
+`make build` exports the generated `dist/` directory. The full check gate verifies
+the same build in scratch without exporting artifacts.
