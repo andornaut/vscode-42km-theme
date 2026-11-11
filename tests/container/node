@@ -1,0 +1,38 @@
+#!/bin/sh
+set -eu
+if [ "${1:-}" = prepare ]; then
+    mkdir -p /scratch/node
+    cp package.json package-lock.json /scratch/node/
+    git config --global url.https://github.com/.insteadOf ssh://git@github.com/
+    git config --global --add url.https://github.com/.insteadOf git@github.com:
+    cd /scratch/node
+    HUSKY=0 npm ci --maxsockets=1 --no-audit --no-fund >&2
+    exec tar --create --file - --directory / scratch/node
+fi
+if [ ! -e node_modules ]; then ln -s /scratch/node/node_modules node_modules; fi
+lint() {
+    npm run lint
+    node --input-type=module -e '
+        import { readdirSync, readFileSync } from "node:fs";
+        for (const file of readdirSync("themes")) {
+            if (file.endsWith(".json")) JSON.parse(readFileSync("themes/" + file, "utf8"));
+        }
+    '
+}
+test_suite() {
+    printf '%s\n' 'No test suite is declared.' >&2
+    return 2
+}
+build() {
+    npm run package
+}
+case "${1:-check}" in
+    check)
+        lint
+        build
+        ;;
+    lint) lint ;;
+    test) test_suite ;;
+    build) build ;;
+    *) exit 2 ;;
+esac
