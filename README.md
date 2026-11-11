@@ -102,3 +102,7 @@ WORKAROUND: Markdownlint CLI 0.24.0 overrides pin patched dependencies for
 [GHSA-gg6h-894w-4m9c](https://github.com/advisories/GHSA-gg6h-894w-4m9c) and
 [GHSA-238p-pmpm-9mq7](https://github.com/advisories/GHSA-238p-pmpm-9mq7).
 Remove the overrides when upstream dependencies include these fixes.
+
+WORKAROUND: The minimatch 11.0.6 override fixes
+[GHSA-g3hv-75wg-m249](https://github.com/advisories/GHSA-g3hv-75wg-m249).
+Remove it when upstream dependency ranges require patched minimatch.
